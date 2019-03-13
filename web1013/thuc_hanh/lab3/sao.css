@@ -1,0 +1,36 @@
+body {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph {
+    border: 1px solid black;
+    width: 310px;
+    height: auto;
+}
+.paragraph1 {
+    color: red;
+    font-size: 12px;
+    font-style: italic; 
+}
+.paragraph2{
+    color: blue;
+    font-size: 12px;
+    font-style: italic; 
+}
+.paragraph3{
+    color: green;
+    font-size: 12px;
+    font-style: italic; 
+}
+
+b{
+    color: brown;   
+}
+.img2 {
+    width: 300px;
+}
+a{
+    text-decoration:none;
+}
