@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+.menu>a{
+    font-variant:small-caps; 
+    Color:blue; 
+    Text-decoration:none; 
+    margin-left:10px; 
+}
+.menu>a:visited{
+    Color:green; 
+}
+.menu>a:hover{
+    Color:red; 
+    Text-decoration:underline; 
+}
+menu>a:active{
+    color: blue;
+}

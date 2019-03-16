@@ -1,0 +1,25 @@
+body{
+    text-align: center ;
+}
+h2{
+    color:white; 
+     text-shadow:0 0 5px red;
+}
+.paragraph{
+    font-style: italic;
+    font-variant:small-caps; 
+    font-size:20px; 
+    word-spacing:2px; 
+    letter-spacing:1px; 
+    line-height:25px; 
+}
+.paragraph1{
+    color: red;
+}
+.paragraph2{
+    color: blue;
+
+}
+.paragraph3{
+    color: green;
+}
