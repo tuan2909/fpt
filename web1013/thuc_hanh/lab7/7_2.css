@@ -1,0 +1,51 @@
+.product{
+    width: 25%;
+    height: auto;
+    float: left;
+    border: 1px solid #ccc;
+    border-radius:5px ;
+}
+header{
+    text-align: center;
+}
+article{
+    width: 80%;
+    float: left;
+    height: 150px;
+}
+article img {
+    text-align: center;
+    width: 104px;
+    height: 150px;
+    padding-left: 110px;
+}
+aside{
+    width: 20%;
+    height: 150px;
+    float: left;
+}
+aside img{
+width: 30px;
+height: 20px;
+}
+aside li{
+    list-style: none;
+
+}
+aside ul {
+    width: 87%;
+    height: auto;
+    margin: 93px 0 0 24px;
+    padding: 0;
+}
+footer{
+    clear: both;
+    width: 70%;
+}
+footer span{
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    color: orangered;
+    line-height: 10px;
+}

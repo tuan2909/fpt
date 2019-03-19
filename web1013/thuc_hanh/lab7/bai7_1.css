@@ -1,0 +1,34 @@
+body{
+    width: 11%;
+    height: auto;
+    margin: 0 auto;
+}
+.vmenu {
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a {
+    background: url("E:/tuan_data/fpt/web1013/thuc_hanh/lab7/img_7/source.gif") no-repeat 10px center ;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    background-size:20px; 
+   }
+   .vmenu a:hover{
+    background: url("E:/tuan_data/fpt/web1013/thuc_hanh/lab7/img_7/mui-ten-dieu-huong-1.gif") no-repeat 10px center ;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    background-size:20px; 
+   }
