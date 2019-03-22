@@ -1,9 +1,13 @@
+body{
+    width: 1900px;
+    height: auto;
+}
 .column{
     width:25% ;
     float:left ;
 }
 .san-pham{
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 10px;
     margin: 5px;
     text-align: center;
