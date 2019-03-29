@@ -8,7 +8,7 @@ body{
     margin: 5px;
     list-style: none;
     border-radius: 3px;
-    box-shadow: 0 0 2px gray;
+    /* box-shadow: 0 0 2px gray; */
 }
 .vmenu a {
     background: url("E:/tuan_data/fpt/web1013/thuc_hanh/lab7/img_7/source.gif") no-repeat 10px center ;

@@ -6,7 +6,7 @@ body{
     max-width: 1000px;
     margin: 0 auto;
     border: 1px solid black;
-    height: 774px;
+    height: auto;
 }
 header>img{
 width: 100%;
@@ -15,9 +15,9 @@ height: 300px;
 nav{
     text-align: center;
     width: 100%;
-    height: 100px;
+    height: 50px;
     background-color:orangered; 
-    line-height: 90px;
+    line-height: 45px;
 }
 nav>a {
     font-family: 'Times New Roman', Times, serif;
@@ -68,7 +68,7 @@ hr{
 footer{
     clear: both ;
     width: 100%;
-    height: 70px;
+    height: 40px;
     background-color:aqua; 
    text-align: center;
 }
@@ -76,7 +76,7 @@ footer>span{
     font-family: 'Times New Roman', Times, serif;
     font-variant: small-caps;
     font-size: 25px;
-    line-height: 73px;
+    line-height: 50px;
 }
 
 iframe{

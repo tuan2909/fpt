@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.wrapper {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    width: 64%;
+    height: 365px;
+    background-image: url(http://c0.img.chungta.vn/2018/10/11/134912-sinh-vien-fpt-polytechn-1134-4473-1539217693.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    position: relative;
+}
+ul.menu-header {
+    width: 32%;
+    height: auto;
+    float: right;
+    border-bottom-left-radius: 20px;
+    list-style: none;
+    padding: 10px;
+    background-color: orangered;
+    margin: 0px;
+    box-shadow: 0px 11px 20px white;
+}
+
+ul.menu-header>li {
+    font-size: 17px;
+    color: #fff;
+    height: auto;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0 10px 0px 10px;
+}
+ul.menu-header li a{
+    text-decoration: none;
+    color: white;
+}
+ul.menu-header li a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 50%;
+}
+.logo>span {
+    color: white;
+    text-shadow: 0px 0px 20px orangered;
+    font-size: 44px;
+    font-family: arial;
+    font-weight: bolder;
+}
+hr {
+    border: 0;
+    color: orangered;
+    background-color: orangered;
+    height: 1px;
+    width: 70%;
+    text-align: left;
+    margin: 0;
+}
+.logo>p {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 14px;
+    letter-spacing: 7px;
+}
+
+nav {
+    width: 64%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: orangered;
+}
+ nav .menu{
+     float: left;
+ }
+ .menu ul {
+    padding: 0;
+}   
+.menu ul li {
+    float: left;
+    list-style: none;
+    padding: 0px 15px 0px 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+    color: white;
+    
+}
+.translate{
+     float: right;
+ }
+ .translate ul{
+     list-style: none;
+     padding: 0;
+ }
+ .translate ul li{
+    float: left;
+    list-style: none;
+    padding: 0px 15px 0px 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+ }
+ .translate ul li a{
+    text-decoration: none;
+    color: white;
+ }
+ .translate ul li a:hover{
+    text-decoration: underline;
+    color: white;
+ }

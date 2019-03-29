@@ -1,0 +1,43 @@
+CREATE TABLE SACH
+(
+ma_sach varchar(5) not null,
+tieu_de varchar(200) null,
+Ma_tac_gia Varchar(5) not null,
+So_trang  Int Null,
+Don_gia Int Null,
+So_luong_kho Int Null,
+Ma_loai Varchar(5) not null,
+Ngay_nhap_kho Datetime Null,
+Ma_nha_san_xuat Varchar(5) Not null
+)
+CREATE TABLE THE LOAI
+(
+    Ma_the_loai Varchar(5) Not null,
+    Ten_the_loai varchar(20) null
+    )
+CREATE TABLE PMCT
+(
+    Ma_PM Varchar(5) Not null,
+    Ten_sach varchar(20) null,
+    Ngay_muon Datetime Null,
+    Ma_sv Varchar(5) Not null,
+    Ten SV Varchar(50) Null,
+    Ma_sach Varchar(5) Not null,
+    ghi_chu´ Varchar(225) Null
+      )
+CREATE TABLE PM
+(
+    Ma_pm Varchar(5) Not null,
+    Ten_Pm Varchar(20) null
+CREATE TABLE THE SINH VIEN
+(
+    Ma_sv Varchar(5) Not null,
+    Ten_sv Varchar(20) null,
+    Ngay_het_han Datetime Null,
+    Chuyen_nganh Varchar(50) null
+    )
+    CREATE TABLE SV
+(
+    Ma_sv Varchar(5) Not null,
+       Ten_sv Varchar(20) null
+  )

@@ -1,32 +1,54 @@
-body {
-    width: 2376px;
-    height: auto;
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
-.product{
-    width: 20%;
+.wrapper {
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.product {
+    width: 24%;
     height: auto;
     float: left;
+    position: relative;
+    padding: 0 10px 10px 0;
+}
+.x1{
     border: 1px solid #ccc;
-    border-radius:5px ;
+    border-radius: 5px;
 }
 header{
     text-align: center;
 }
-article{
-    width: 80%;
+.header-img>img {
+    width: 60px;
+    height: 55px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+article {
+    width: 20%;
     float: left;
     height: 150px;
+    position: relative;
+    padding-left: 110px;
+    padding-right: 100px;
 }
 article img {
-    text-align: center;
-    width: 104px;
+    width: 101px;
     height: 150px;
-    padding-left: 180px;
+    position: absolute;
+    left: 90px;
 }
-aside{
-    width: 20%;
-    height: 150px;
-    float: left;
+aside ul {
+    position: absolute;
+    bottom: 12px;
+    right: 15px;
+    padding: 0;
+    margin: 0;
 }
 aside img{
 width: 30px;
@@ -36,16 +58,7 @@ aside li{
     list-style: none;
 
 }
-aside ul {
-    width: 87%;
-    height: auto;
-    margin: 93px 0 0 24px;
-    padding: 0;
-}
-footer{
-    clear: both;
-    width: 70%;
-}
+
 footer span{
     text-align: left;
     font-weight: bold;

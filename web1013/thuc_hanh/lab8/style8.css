@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.wrapper {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    width: 64%;
+    height: 365px;
+    background-image: url(http://c0.img.chungta.vn/2018/10/11/134912-sinh-vien-fpt-polytechn-1134-4473-1539217693.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+ul.menu-header li a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 50%;
+}
+.logo>span {
+    color: white;
+    text-shadow: 0px 0px 20px orangered;
+    font-size: 44px;
+    font-family: arial;
+    font-weight: bolder;
+}
+hr {
+    border: 0;
+    color: orangered;
+    background-color: orangered;
+    height: 1px;
+    width: 70%;
+    text-align: left;
+    margin: 0;
+}
+.logo>p {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 14px;
+    letter-spacing: 7px;
+}
+.menu {
+    width: 64%;
+    height: auto;
+    margin: 0 auto;
+    background-color: orangered;
+}
+.menu>ul>li{
+    display:inline-block;
+    position:relative ;
+} 
+.menu>ul>li>a{
+    display:block;
+} 
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius:3px;
+    background-color: orangered;
+    text-align: center; 
+} 
+.menu>ul>li>a{
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:larger ;
+    color:white ;
+    padding: 0 10px ;
+    line-height:50px; 
+} 
+.menu>ul>li>a:hover{
+    color: white;
+    text-decoration: underline;
+} 
+.menu ul ul{
+    position:absolute ; 
+    display:none; 
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    width: 100px;
+background-color:white; 
+box-shadow:0 0 3px gray ;
+} 
+.menu ul ul a{
+    display: block;
+    line-height:30px;
+    color:orangered ;
+     text-decoration:none ;
+      font-variant:small-caps ;
+       font-size:larger ;
+        padding:0 10px 
+} 
+.menu ul ul a:hover{
+    background-color:orangered ;
+    color:white;
+} 
+.menu>ul>li:hover>ul{
+    display:block 
+} 
+article {
+    width: 49%;
+    float: left;
+    height: 355px;
+    margin-left: 18%;
+}
+aside {
+    width: 15%;
+    float: left;
+    height: 355px;
+
+}
+.aside_a{
+text-decoration: none;
+font-weight: bold;
+color:blue;
+}
+.aside_a:hover{
+    color: red;
+    text-decoration: none;
+}
+ul {
+    color: red;  
+    line-height: 70px;
+    word-spacing: 2px;
+    padding: 0 0 0 66px;
+}
+hr{
+    background-color: orangered;
+}
+footer {
+    clear: both;
+    width: 64%;
+    height: 40px;
+    background-color: aqua;
+    text-align: center;
+    margin: 0 auto;
+}
+footer>span{
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-size: 25px;
+    line-height: 50px;
+}
+.vmenu {
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a {
+    background: url(E:/tuan_data/fpt/web1013/thuc_hanh/lab7/img_7/source.gif) no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    text-transform: uppercase;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    background-size: 20px;
+    font-weight: bolder;
+}
+   .vmenu a:hover{
+    background: url("E:/tuan_data/fpt/web1013/thuc_hanh/lab7/img_7/mui-ten-dieu-huong-1.gif") no-repeat 10px center ;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    background-size:20px; 
+   }
+ 
+
+ 
