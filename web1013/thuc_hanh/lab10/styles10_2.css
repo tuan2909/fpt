@@ -1,0 +1,99 @@
+.container {
+    width: 22%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+label{
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.layout{
+    padding:0 10px 10px 5px;
+}
+input{
+    border-radius:4px; 
+    border:1px solid black;
+    padding:0 10px 5px 5px; 
+}
+input[type=text]{
+    width: 150px;
+    transition: width .35s ease-in-out;
+}
+input[type=text]:focus{
+    width: 250px; 
+}
+input[type=submit]{
+    border-radius:15px;
+    padding: 5px 20px 5px 20px; 
+    border:0.5px solid blue; 
+    background: white;
+    box-shadow: 0 0 10px inset blue;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+input[type=reset]{
+    border-radius:15px;
+    padding: 5px 15px 5px 15px; 
+    border:0.5px solid blue; 
+    background: white;
+    box-shadow: 0 0 10px inset blue;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+input[type=number]{
+    border-radius:4px; 
+    border:1px solid black; 
+}
+input[type=number]:focus{
+    border-radius:4px; 
+    border:1px solid red; 
+    background-color:yellow;
+    color: black; 
+}
+button{
+    border-radius:15px;
+    padding: 10px 15px 10px 15px; 
+    border:0.5px solid #ccc; 
+    background: white;
+    box-shadow: 0 0 10px inset #ccc;
+    color: #ccc;
+    font-weight: bold; 
+    text-transform: capitalize;
+    cursor: pointer;
+}
+textarea{
+    border-radius:3px; 
+}
+textarea:focus{
+    border-color: red;
+    background: yellow;
+    color:black;
+    border-radius:3px; 
+}
+legend {
+    display: block !important;
+    padding-inline-start: 2px !important;
+    padding-inline-end: 2px !important;
+    border-width: initial !important;
+    border-style: none !important;
+    border-color: initial !important;
+    border-image: initial !important;
+        width: auto !important;
+}
+fieldset {
+    /* display: block !important;
+    margin-inline-start: 2px !important;
+    margin-inline-end: 2px !important;
+    padding-block-start: 0.35em !important;
+    padding-inline-start: 0.75em !important;
+    padding-inline-end: 0.75em !important;
+    padding-block-end: 0.625em !important;
+    min-inline-size: min-content !important; */
+    border: 1 solid black !important;
+}

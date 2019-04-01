@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>lab10_2</title>
+    <link rel="stylesheet" href="styles10_2.css">
+    <!-- <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div class="layout">
+                <label for="">Họ và Tên</label>
+                <br>
+                <input type="text" class="form-control">
+            </div>
+            <div class="layout">
+                <fieldset>
+                    <legend>Giới Tính</legend>
+                    <input type="radio" name="gioitinh" checked>
+                    <span>Nam</span>
+                    <input type="radio" name="gioitinh">
+                    <span>Nữ</span>
+                </fieldset>
+            </div>
+            <div class="layout">
+                <label for="">
+                    <span>ngày sinh</span>
+                </label>
+                <br>
+                <input type="date" name="" id="">
+            </div>
+            <div class="layout">
+                <label for="">điểm</label>
+                <br>
+                <input type="number" placeholder="0.25" min="0" max="10" step="0.25">
+            </div>
+            <div class="layout">
+                <label for="">nghề nghiệp</label>
+                <br>
+                <input list="nghenghiep">
+                <datalist id="nghenghiep">
+                    <option value="kỹ sư"></option>
+                    <option value="bác sỹ"></option>
+                    <option value="nông dân"></option>
+                    <option value="thợ lặn"></option>
+                    <option value="thợ điện"></option>
+                </datalist>
+            </div>
+            <div class="layout">
+                <fieldset>
+                    <legend>Sở Thích</legend>
+                    <input type="checkbox" name="" checked>
+                    <span>Thể Thao</span>
+                    <input type="checkbox">
+                    <span>Du Lịch</span>
+                    <input type="checkbox">
+                    <span>Âm Nhạc</span>
+                    <input type="checkbox">
+                    <span>Ẩm Thực</span>
+                </fieldset>
+            </div>
+            <div class="layout">
+                <label>ghi chú: </label>
+                <br>
+                <textarea cols="55" rows="10"></textarea>
+            </div>
+            <div class="layout">
+                <input type="submit" value="Đăng ký" tabindex="2">
+                <input type="reset" value="Nhập lại" tabindex="3">
+        </form>
+        </div>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="./bootstrap/js/bootstrap.js"></script> -->
+</body>
+
+
+</html>
