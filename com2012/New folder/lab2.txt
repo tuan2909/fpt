@@ -1,0 +1,32 @@
+CREATE TABLE KHACHHANG
+(
+    makhachhang varchar(5) not null,
+    hovatenlot varchar(50) null,
+    ten varchar(50) null,
+    diachi varchar(225) null,
+    email varchar(50) null,
+    dienthoai varchar(13) null
+)
+CREATE TABLE SANPHAM
+(
+    masanpham int not null,
+    mota varchar(225) null,
+    soluong int null,
+    dongia int null,
+    tensp varchar(50) null
+) 
+CREATE TABLE HOADON
+(
+    mahoadon int not null,
+    ngaymuahang date null,
+    makhachhang varchar(5) null,
+    trangthai varchar(30) null
+)
+CREATE TABLE HOADONCHITIET
+(
+mahoadonchitiet int  not null,
+    mahoadon int  null,
+    masanpham int null,
+    soluong int null
+    
+)

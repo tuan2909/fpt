@@ -1,5 +1,4 @@
-span{
-    position: absolute;
-    border: 1px solid black;
-    background: orangered;
+img{
+    width: 100%;
+    height: 200px;
 }

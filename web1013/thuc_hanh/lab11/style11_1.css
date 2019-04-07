@@ -1,8 +1,41 @@
-table{
-    border: 1px solid black;
-    width: 100%;
-height: 300px;
+.container{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
 }
-table td{
-    border: 1px solid;
+table{
+    width: 100%;
+    border: 1px solid green;
+    border-collapse:collapse; 
+}
+
+thead tr th{
+    background-color:green; 
+    color: white;
+    font-size:12px; 
+    height: 30px;
+    border-left:0.5px solid white; 
+}
+thead span{
+    text-transform: capitalize;
+}
+thead tr td{
+    background-color:#9cec9c; 
+    text-transform: capitalize;
+    height: 40px;
+    font-size:12px; 
+    text-align: center;
+    font-weight: bold;
+}
+tbody tr td{
+    border: 1px solid green;
+    /* background-color:white;  */
+    text-transform: capitalize;
+    height: 40px;
+    font-size:12px; 
+    text-align: center;
+    font-weight: bold;
+}
+tbody tr td span{
+    color: red;
 }

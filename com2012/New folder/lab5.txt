@@ -1,0 +1,25 @@
+SELECT * FROM khachhang
+SELECT MaKH,concat(Hodem,' ',ten) as hovaten,Email,Dienthhoai FROM `khachhang` limit 10;
+SELECT masp,tensp,dongia*soluong as tonkho FROM sanpham
+SELECT MaKH,concat(Hodem,' ',Ten) AS hovaten,diachi FROM `khachhang` WHERE Ten like N'%H%' 
+SELECT * FROM `khachhang` WHERE diachi like N'%ะเ N?ng%'
+SELECT *FROM sanpham where soluong between 100 and 500;
+SELECT * FROM hoadon WHERE trangthai like N'%chua tr?%' and YEAR(ngaymua)=2016 
+SELECT mahd,trangthai from hoadon where makh like N'KH0001' or makh like 'KH0003'  OR  makh like 'KH0006'
+
+
+
+SELECT COUNT(MaKH) FROM `khachhang`
+SELECT tensp,max(dongia) as dongia_max from sanpham
+SELECT tensp,min(soluong) as soluong_min FROM sanpham 
+SELECT sum(soluong) as tongsoluong from sanpham
+SELECT COUNT(*) as sohoadon from hoadon WHERE YEAR(ngaymua)=2016 AND month(ngaymua)=12 and trangthai like N'%chua tr?%'
+SELECT mahd,masp,soluong from hoadonchitiet
+SELECT MaHDCT,soluong as soluongspdamua FROM hoadonchitiet WHERE soluong>5
+SELECT mahd,ngaymua,makh FROM hoadon ORDER by ngaymua desc
+
+
+SELECT masp,sum(soluong) from sanpham WHERE masp like N'10'
+SELECT COUNT(Mahd),makh,trangthai from hoadon WHERE makh like N'KH0001'  and trangthai like N'%dใ tr?%'
+SELECT makh, COUNT(DISTINCT(Mahd)) as tongslmuahang from hoadon GROUP by makh
+SELECT  COUNT(masp),sum(soluong*dongia) from sanpham

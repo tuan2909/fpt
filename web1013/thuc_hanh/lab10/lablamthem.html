@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>lablamthge</title>
+    <link rel="stylesheet" href="lamthem.css">
+    <!-- <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" >
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="layout">
+            <label for="">Username</label>
+            <br>
+            <input type="text">
+        </div>
+        <div class="layout">
+            <label for="">Email</label>
+            <br>
+            <input type="email">
+        </div>
+        <div class="layout">
+            <label for="">Birthday</label>
+            <br>
+            <input class="input-date" list="day" placeholder="Day">
+            <datalist id="day">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+            </datalist>
+            <input class="input-date" list="month" placeholder="Month">
+            <datalist id="month">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+            </datalist>
+            <input class="input-date" list="year" placeholder="Year">
+            <datalist id="year">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+            </datalist>
+        </div>
+        <div class="layout">
+            <label for="">Location</label>
+            <input list="location" placeholder="Select Location">
+            <datalist id="location">
+                <option value="vietnam"></option>
+                <option value="hanquoc"></option>
+                <option value="lao"></option>
+                <option value="campuchia"></option>
+                <option value="nhatban"></option>
+            </datalist>
+        </div>
+        <div class="layout">
+            <label for="">Your Phone</label>
+            <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>      
+        </div>
+        <div class="layout">
+            <label for="">Password</label>
+            <input type="password" >      
+        </div>
+        <div class="layout">
+            <label for="">Repeat Password</label>
+            <input type="password" >      
+        </div>
+        <div class="submit-button">
+            <input type="submit" value="Register">
+        </div>
+        </form>
+    </div>
+    </div>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.js" ></script> -->
+</body>
+
+
+</html>
