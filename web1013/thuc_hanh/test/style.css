@@ -1,4 +1,129 @@
-img{
-    width: 100%;
-    height: 200px;
+.container{
+ width: 70%;
+ height: 800px;
+ margin: 0 auto;
+}
+header{
+  background: url("./tainguyen/banner.jpg") no-repeat;
+  background-size:100%; 
+  height: 280px;
+  position: relative;
+}
+.header-menu {
+  position: absolute;
+  left: 1130px;
+  background: #e30050;
+  padding: 14px;
+  border-bottom-left-radius: 20px;
+}
+.header-menu a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+}
+.header-menu span{
+  color: #fff;
+}
+.header-menu a:hover{
+  text-decoration: underline;
+  color: #fff;
+  text-transform: capitalize;
+}
+nav {
+  width: 100%;
+  height: 50px;
+  background: #e30050;
+}
+nav ul{
+  width: 70%;
+  height: 50px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+nav li {
+  float: left;
+  padding: 0px 40px 0 45px;
+  line-height: 50px;
+}
+nav li:hover{
+background: #0335fb;
+}
+nav a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+aside {
+  width: 29%;
+  margin: 1% 1% 1% 0;
+  float: left;
+  height: 350px;
+}
+aside ul {
+  width: 100%;
+  height: auto;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+aside li {
+  padding: 20px;
+  border: 1px solid #e30050;
+  margin: 10px 0 10px 0;
+  text-align: center;
+}
+aside li:hover {
+  padding: 20px;
+  border: 1px solid #e30050;
+  margin: 10px 0 10px 0;
+  text-align: center;
+  background: #0335fb;
+}
+aside a{
+color: black;
+text-decoration: none;  
+text-transform: uppercase;
+}
+aside a:hover{
+  color: #fff;
+  text-decoration: none;  
+  text-transform: uppercase;
+  }
+  article {
+    width: 290px;
+    float: left;
+    margin: 20px 0 0 10px;
+}
+article img{
+  width: 100%;
+}
+article a{
+  text-decoration: none;
+  color: black;
+}
+article h3 {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px 0 0 0;
+}
+article p{
+  text-align: justify;
+  font-size: 17px;
+}
+footer{
+  clear: both;
+  width: 100% ;
+  height: 50px;
+  background: #e30050;
+}
+.footer_paragraph{
+  width:70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer_paragraph span{
+  line-height: 50px;
+  color: white;
+
 }

@@ -1,0 +1,50 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+    height: 670px;
+    border: 1px solid black;
+}
+header b{
+font-size: 30px;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+header img {
+    width: 52%;
+    float: left;
+    height: 200px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.paragraph {
+    float: left;
+    width: 100%;
+    height: auto;
+padding: 10px;
+}
+.paragraph img {
+    width: 30%;
+    float: left;
+}
+.paragraph p {
+    width: 66%;
+    margin: 0;
+    line-height: 21px;
+    text-align: justify;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.border1 {
+    padding: 20px;
+    clear: both;
+    width: 93%;
+    border-bottom: 1px solid black;
+}
+
